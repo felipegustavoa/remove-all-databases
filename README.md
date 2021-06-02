@@ -1,11 +1,17 @@
 # Remove-databases
-Script to remove all data-bases using a docker environment
+Simple script to remove all data-bases using a docker environment
 
 Up docker:
-`$ make up`
+```sh
+$ make up
+```
 
 Down docker:
-`$ make down`
+```sh
+$ make down
+```
 
 Remove all data-bases:
-`$ make remove-databases`
+```sh
+$ make remove-databases
+```
